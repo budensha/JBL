@@ -51,5 +51,6 @@ function typeMessage() {
 
 // Start typing after a short delay
 window.onload = () => {
-    setTimeout(typeMessage, 1000);
+    growTree(); // This triggers the drawing
+    setTimeout(typeMessage, 1500); // Starts typing 1.5 seconds later
 };
